@@ -17,17 +17,17 @@ password,
 })
 );
 
-```
+
 alert("Account Created!");
 window.location.href = "/login";
-```
+
 
 }
 
 return ( <div className="min-h-screen flex items-center justify-center bg-black text-white"> <div className="w-96 rounded-xl bg-slate-900 p-6"> <h1 className="mb-4 text-2xl font-bold">
 Create Account </h1>
 
-```
+
     <input
       type="text"
       placeholder="Full Name"
@@ -60,7 +60,7 @@ Create Account </h1>
     </button>
   </div>
 </div>
-```
+
 
 );
 }
